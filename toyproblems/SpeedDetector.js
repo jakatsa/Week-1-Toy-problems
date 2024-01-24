@@ -1,4 +1,4 @@
-function checkSpeed(speed) {
+function  checkSpeed(speed) {
   const speedLimit = 70;
   const demeritPointsThreshold = 5;
 
