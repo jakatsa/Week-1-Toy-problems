@@ -1,11 +1,79 @@
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), 
-to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, 
-and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+Toy Problem Challenges
+ Challenge 1: Student Grade Generator
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+Write a function that prompts the user to input student marks. The input should be between 0 and 100. The output should correspond to the correct grade, as follows:
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, 
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
-TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+- A > 79
+- B - 60 to 79
+- C - 59 to 49
+- D - 40 to 49
+- E - less than 40
+ How to Use
 
-Copyright :Joe Akatsa
+1. Install Dependencies:
+   Before running the Student Grade Generator, make sure to install the `prompt-sync` library. If you don't have it installed, you can do so using the following command:
+
+   ```bash
+   npm install prompt-sync
+
+2. Run the Program:
+   After installing the dependency, you can run the program using your preferred JavaScript environment. For example, in Node.js:
+   
+   ```bash
+   node studentGradeGenerator.js
+
+ Challenge 2: Speed Detector
+
+Write a program that takes the speed of a car as input (e.g., 80). If the speed is less than 70, it should print "Ok". Otherwise, for every 5 km/s above the speed limit (70), it should give the driver one demerit point and print the total number of demerit points.
+
+> For example, if the speed is 80, it should print: "Points: 2". If the driver gets more than 12 points, the function should print: "License suspended".
+
+How to Use
+1. Run the Program
+   
+   ```bash
+   node speedDetector.js
+
+ Challenge 3: Net Salary Calculator
+
+Write a program whose major task is to calculate an individual’s Net Salary by getting the inputs of basic salary and benefits. Calculate the payee (i.e. Tax), NHIF Deductions, NSSF Deductions, gross salary, and net salary.
+
+NB:Use KRA, NHIF, and NSSF values provided in the [KRA Tax Rates](https://www.aren.co.ke/payroll/taxrates.htm) and [KRA Paye Calculation](www.kra.go.ke/en/individual/calculate-tax/calculating-tax/paye) links.
+
+How to Use
+1. Run the Program:
+   
+   ```bash
+   node netSalaryCalculator.js
+
+Extra Practice Questions
+
+ BubbleSort
+
+Write a function that takes an array of numbers as input. It should output an array of those same numbers sorted from lowest to highest.
+
+Sample input: [5,6,1,3,4,2]
+Expected output: [1,2,3,4,5,6]
+
+ How to Use
+1. Run the Program:
+   
+   ```bash
+   node bubbleSort.js
+
+ Loops
+
+ Staircase problem
+
+Create a function that takes an integer and console logs a step-shaped stair with the integer levels using the '#' character.
+
+
+
+ How to Use
+1. un the Program:
+   
+   ```bash
+   node staircase.js
+
+Author:Joe Akatsa
+
