@@ -9,7 +9,6 @@ D - 40 to 49
 E - less than 40
 How to Use
 Install Dependencies: Before running the Student Grade Generator, make sure to install the prompt-sync library. If you don't have it installed, you can do so using the following command:
-
 npm install prompt-sync
 Run the Program: After installing the dependency, you can run the program using your preferred JavaScript environment. For example, in Node.js:
 
