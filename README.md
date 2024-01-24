@@ -12,7 +12,7 @@ Install Dependencies: Before running the Student Grade Generator, make sure to i
 npm install prompt-sync
 Run the Program: After installing the dependency, you can run the program using your preferred JavaScript environment. For example, in Node.js:
 
-node studentGradeGenerator.js
+node StudentGradeGenerator.js
 Challenge 2: Speed Detector
 Write a program that takes the speed of a car as input (e.g., 80). If the speed is less than 70, it should print "Ok". Otherwise, for every 5 km/s above the speed limit (70), it should give the driver one demerit point and print the total number of demerit points.
 
@@ -21,7 +21,7 @@ For example, if the speed is 80, it should print: "Points: 2". If the driver get
 How to Use
 Run the Program:
 
-node speedDetector.js
+node SpeedDetector.js
 Challenge 3: Net Salary Calculator
 Write a program whose major task is to calculate an individual’s Net Salary by getting the inputs of basic salary and benefits. Calculate the payee (i.e. Tax), NHIF Deductions, NSSF Deductions, gross salary, and net salary.
 
@@ -30,7 +30,7 @@ NB: Use KRA, NHIF, and NSSF values provided in the KRA Tax Rates and KRA Paye Ca
 How to Use
 Run the Program:
 
-node netSalaryCalculator.js
+node NetSalaryCalculator.js
 Extra Practice Questions
 BubbleSort
 Write a function that takes an array of numbers as input. It should output an array of those same numbers sorted from lowest to highest.
@@ -45,17 +45,9 @@ Loops
 Staircase problem
 Create a function that takes an integer and console logs a step-shaped stair with the integer levels using the '#' character.
 
-Example:
 
-steps(2)
-#
-##
-
-steps(3)
-#
-##
-###
 How to Use
 Run the Program:
 
-node staircase.js
+node stairCase.js
+Author:Joe Akatsa
