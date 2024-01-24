@@ -1,4 +1,4 @@
-const kraTaxRates = {
+const  kraTaxRates = {
   paye: [
     { lower: 0, upper: 24000, rate: 10 },
     { lower: 24001, upper: 32333, rate: 15 },
