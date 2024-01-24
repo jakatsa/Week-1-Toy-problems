@@ -1,4 +1,4 @@
-function bubbleSort(arr) {
+function  bubbleSort(arr) {
   let len = arr.length;
   let swapped;
 
